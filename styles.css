@@ -1,0 +1,152 @@
+/* Base Styles */
+html{
+    height: 100%;
+}
+body{
+    background-color: rgb(6, 10, 19);
+    height: 100%;
+}
+nav{
+    background-color: black;
+    padding: 5px;
+    filter: drop-shadow(0 1px 1px rgb(0 0 0 / 0.05)); /*? */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+}
+button{
+    padding: .875rem 2.5rem;
+}
+/* Nav */
+.headerTitle{
+    margin-left: 1.5rem;
+    font-size: 2.5rem;
+    text:white ;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.navList{
+    padding: 4px;
+    margin-top: .5rem;
+    display: flex;
+    justify-content: space-between;
+
+}
+.navListItems{
+    margin-right: 3rem;
+    font-size: 1.25rem;
+    font-family: 'Lato', sans-serif;
+}
+.navLinks{
+    color: antiquewhite;
+}
+#contact{
+    margin-right: 1rem;
+}
+/* Main Page */
+.intro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction:column;
+    width: 100%;
+}
+.title{
+    text:white ;
+    font-family: 'Poppins', sans-serif;
+
+}
+.titleNav{
+    font-size: 5rem;
+    margin-top: 4rem;
+}
+.subtext{
+    color:rgb(97, 92, 92);
+    font-family: 'Cormorant', serif;
+    font-size: 1.1rem;
+
+}
+.bottom{
+    text: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8rem;
+}
+.introButton{
+    margin-right: 1rem;
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    font-weight: 600;
+    color: rgb(72, 76, 122);
+    font-size: 14px;
+    height: 38px;
+    width: 15rem;
+    padding: 8px 24px;
+    border-radius: 50px;
+    background-image: linear-gradient(180deg,#fff,#f5f5fa);
+    box-shadow: 0 4px 11px 0 rgb(37 44 97 / 15%), 0 1px 3px 0 rgb(93 100 148 / 20%);
+    transition: all .2s ease-out;
+    }
+    /* Login Page */
+
+.loginBox{
+    justify-content: start;
+}
+.intro.loginBox{
+    width: 27rem;
+    height: 37rem;
+    background-color: white;
+    color: black;
+    border-radius: .625rem;
+}
+.loginPage{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.welcome{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.2rem;
+    font-weight: 400;
+    padding: 0 0 .8rem 0;
+    margin: 3rem 0 2rem 0;
+}
+
+.titleLogin{
+    font-size: 2rem;
+    margin: 0;
+    
+}
+.loginForm{
+    display: flex;
+    flex-direction: column;
+    margin: 1.8rem 0;
+    padding-bottom: 4rem;
+}
+  .loginInput {
+    font-size:18px;
+    padding:10px 10px 10px 5px;
+    margin-bottom: 10px;
+    display:block;
+    width:300px;
+    border:none;
+    border-bottom:2px solid #9b9696;
+  }
+  input:focus
+  {
+     outline: none;
+  }
+  .bottomLogin{
+    display: flex;
+    flex-direction: column;
+    margin-top: 6rem;
+  }
