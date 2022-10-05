@@ -94,6 +94,7 @@ button{
     box-shadow: 0 4px 11px 0 rgb(37 44 97 / 15%), 0 1px 3px 0 rgb(93 100 148 / 20%);
     transition: all .2s ease-out;
     }
+
     /* Login Page */
 
 .loginBox{
@@ -149,4 +150,16 @@ button{
     display: flex;
     flex-direction: column;
     margin-top: 6rem;
+  }
+  .bottomSignUp{
+    margin-top: 2rem;
+  }
+   /* profile sign in   */
+
+  .profileBox{
+    width: 37rem;
+    height: 47rem;
+    background-color: white;
+    color: black;
+    border-radius: 0.625rem
   }
